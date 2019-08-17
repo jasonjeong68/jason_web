@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no, maximum-scale=1.0, minimum-scale=1.0">
+	<title>my first web page</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<script type="text/javascript" src="jquery.js"></script>
+</head>
+<body>
+	<ol id="list">
+		<li>HTML</li>
+		<li>CSS</li>
+		<li>JavaScript</li>
+		<li>Hello world</li>
+	</ol>
+	<input type="button" value="excute" id="excute_btn"/>
+	<script type="text/javascript">
+	
+	$('#excute_btn').click(function() {
+		$('#list li').text('coding everybody')
+	})
+	</script>
+</body>
+</html>
